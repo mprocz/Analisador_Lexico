@@ -84,5 +84,8 @@ int main() {
             }
         }
     }
+    if (!lexema.empty()) {
+        print_token(&lexema, &token);
+    }
     return 0;
 }
